@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Redback is a capstone project company within Deakin University. Students work on Redback's projects under the guidance of professional and academic mentors. Our focus is to deliver innovative IoT solutions that bridge the gap between technology and fitness.
+        Redback is a capstone project company within Deakin University. Students work on real-world projects under the guidance of both professional and academic mentors, focusing on creating impactful solutions.
       </>
     ),
   },
@@ -17,10 +17,8 @@ const FeatureList = [
     Svg: require('@site/static/img/docs.svg').default,
     description: (
       <>
-        We are in the process of migrating documentation here. You will be able to find detailed documentation on all projects, guidelines, and general company information. Feel free to add or edit content relevant to your project within reason.
-        <br />
-        <br />
-        Contributions from students are encouraged to enhance the knowledge base and documentation structure.
+        We are currently migrating documentation to this platform. <br></br><br></br>
+        You'll soon find detailed documentation for each project, as well as resources on general company operations. Feel free to contribute or modify any project-related content within the guidelines.
       </>
     ),
   },
@@ -29,13 +27,13 @@ const FeatureList = [
     Svg: require('@site/static/img/question.svg').default,
     description: (
       <>
-        Redback Operations is on a mission to transform small steps in the virtual world into significant strides in reality. Our goal is to make you Smarter, Fitter, and Better by adding an element of enjoyment to physical activity. We specialize in developing cutting-edge connected fitness devices designed to enhance the quality of exercise and training effectiveness. Our sensor technology also focuses on injury prevention, improving overall safety during workouts.
+        Redback Operations is committed to enhancing fitness experiences through cutting-edge IoT devices. Our goal is to make physical activity smarter, safer, and more enjoyable. We specialize in connected fitness devices and sensor technologies that prevent injury and improve training effectiveness.
       </>
     ),
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
